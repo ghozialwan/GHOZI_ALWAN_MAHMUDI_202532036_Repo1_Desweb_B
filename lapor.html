@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Lapor Kondisi - Sindoro via Kledung</title>
+</head>
+<body>
+    <header>
+        <h1>Formulir Laporan Kondisi Jalur</h1>
+        <p>Bantu pendaki lain dengan memberikan laporan terkini mengenai kondisi jalur Kledung.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="rute.html">Rute & Estimasi</a></li>
+            <li><a href="lapor.html">Lapor Kondisi</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Isi Laporan Pendakian Anda</h2>
+        <form action="#" method="POST">
+            <label for="namaPendaki">Nama Lengkap Pendaki:</label><br>
+            <input type="text" id="namaPendaki" name="namaPendaki" required><br><br>
+
+            <label for="tanggalTurun">Tanggal Turun Gunung:</label><br>
+            <input type="date" id="tanggalTurun" name="tanggalTurun" required><br><br>
+
+            <p>Bagaimana kondisi cuaca mayoritas selama di jalur?</p>
+            <input type="radio" id="cuacaCerah" name="cuaca" value="Cerah" required>
+            <label for="cuacaCerah">Cerah / Terang</label><br>
+            <input type="radio" id="cuacaHujan" name="cuaca" value="Hujan">
+            <label for="cuacaHujan">Hujan / Badai</label><br>
+            <input type="radio" id="cuacaKabut" name="cuaca" value="Kabut">
+            <label for="cuacaKabut">Kabut Tebal</label><br><br>
+
+            <button type="submit">Kirim Laporan Form</button>
+        </form>
+    </main>
+    <footer>
+         <p>&copy; 2026 Ghozi Alwan Mahmudi - Praktikum Desain Web</p>
+    </footer>
+</body>
+</html>
+
